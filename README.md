@@ -115,7 +115,8 @@ class Usuario {
   + getFoto() String
   + setFoto(foto: String) void
 }
-
+Produto --> Categoria
+Categoria --> Produto
 ```
 
 
