@@ -94,14 +94,12 @@ class Produto {
   + setNome(nome: String) void
   + setImagem(tipo: String) void
   + setPreco(preco: float) void
-  + visualizar() void
 }
 class Categoria {
   - id:Long
   - descricao: String
   + getDescricao() String
   + setDescricao(descricao: String) void
-  + visualizar() void
 }
 class Usuario {
   - id:Long
@@ -116,7 +114,6 @@ class Usuario {
   + setUsuario(usuario: String) void
   + getFoto() String
   + setFoto(foto: String) void
-  + visualizar() void
 }
 
 ```
@@ -141,10 +138,10 @@ Para executar os códigos localmente, você precisará de:
 
 ### 5.1. Importando o Projeto
 
-1. Clone o repositório do Projeto [Farmácia](https://github.com/alineromanini/projeto_final_bloco_02) dentro da pasta do *Workspace* do Eclipse/STS
+1. Clone o repositório do Projeto Farmácia (https://github.com/alineromanini/projeto_final_bloco_02) dentro da pasta do *Workspace* do Eclipse/STS
 
 ```bash
-git clone https://github.com/rafaelq80/farmacia_java_t83.git
+git clone https://github.com/alineromanini/projeto_final_bloco_02.git
 ```
 
 2. **Abra o Eclipse/STS** e selecione a pasta do *Workspace* onde você clonou o repositório do projeto
