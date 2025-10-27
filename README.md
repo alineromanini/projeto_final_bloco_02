@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/github/last-commit/rafaelq80/farmacia_java_t83?style=flat-square" />
   <img src="https://img.shields.io/github/issues/rafaelq80/farmacia_java_t83?style=flat-square" />
   <img src="https://img.shields.io/github/issues-pr/rafaelq80/farmacia_java_t83?style=flat-square" />
-  <img src="https://img.shields.io/badge/status-construção-yellow" alt="Status: Em Construção">
+  <img src="https://img.shields.io/badge/status-construção-yellow" alt="Status: Concluído">
 
 
 
@@ -40,7 +40,8 @@ Este projeto, desenvolvido em **Java**, foca no estudo e aplicação dos conceit
 - Modificadores de Acesso;
 - Herança e Polimorfismo;
 - Classes Abstratas;
-- Interfaces.
+- Interfaces;
+- Implementação de camada de Segurança.
 
 Além de servir como um simulador funcional, o projeto oferece uma base prática para compreender os princípios fundamentais da POO aplicados a um cenário realista.
 
@@ -50,11 +51,21 @@ Além de servir como um simulador funcional, o projeto oferece uma base prática
 
 <br />
 
-1. **Cadastrar Produto:** Adiciona um novo produto ao sistema especificando nome, preço, categoria e demais propriedades relevantes. O identificador do produto é gerado automaticamente.
-2. **Listar todos os Produtos:** Exibe todos os produtos cadastrados no sistema, com informações detalhadas.
-3. **Consultar Produto por ID:** Localiza um produto específico a partir do seu identificador único.
-4. **Editar Produto:** Permite atualizar os dados de um produto existente com base no seu ID.
-5. **Excluir Produto:** Remove um produto específico do sistema a partir do seu ID.
+1. **Cadastrar Produto/Categoria** 
+2. **Listar todos os Produtos/Categorias** 
+3. **Consultar Produto/Categoria por ID** 
+4. **Editar Produto/Categoria**
+5. **Excluir Produto/Categoria:** Remove um produto específico do sistema a partir do seu ID.
+
+<br />
+
+<br />
+
+1. **Cadastrar Usuário** 
+2. **Autenticar Usuário** 
+3. **Consultar Usuário por ID** 
+4. **Atualizar Usuário**
+5. **Listar todos os Usuários** 
 
 <br />
 
@@ -107,24 +118,13 @@ class Usuario {
   + setFoto(foto: String) void
   + visualizar() void
 }
-Medicamento --> Produto
-Cosmetico --> Produto
+
 ```
 
-<br />
-
-## 4. Tela Inicial do Sistema - Menu
 
 <br />
 
-<div align="center">
-   <img src="https://i.imgur.com/lx232A1.png" title="source: imgur.com" width="90%"/>
-</div>
-
-
-<br />
-
-## 5. Requisitos
+## 4. Requisitos
 
 <br />
 
@@ -135,11 +135,11 @@ Para executar os códigos localmente, você precisará de:
 
 <br />
 
-## 6. Como Executar o projeto no Eclipse/STS
+## 5. Como Executar o projeto no Eclipse/STS
 
 <br />
 
-### 6.1. Importando o Projeto
+### 5.1. Importando o Projeto
 
 1. Clone o repositório do Projeto [Farmácia](https://github.com/alineromanini/projeto_final_bloco_02) dentro da pasta do *Workspace* do Eclipse/STS
 
@@ -156,7 +156,7 @@ git clone https://github.com/rafaelq80/farmacia_java_t83.git
 
 <br />
 
-### 6.2. Executando o projeto
+### 5.2. Executando o projeto
 
 1. Na guia **Package Explorer**, localize o Projeto Conta Bancária
 2. Abra a **Classe Menu**
@@ -166,7 +166,7 @@ git clone https://github.com/rafaelq80/farmacia_java_t83.git
 
 <br />
 
-## 7. Contribuição
+## 6. Contribuição
 
 <br />
 
@@ -182,5 +182,5 @@ Este repositório é parte de um projeto educacional, mas contribuições são s
 
 <br />
 
-Desenvolvido por [**Rafael**](https://github.com/alineromanini)
+Desenvolvido por [**Aline**](https://github.com/alineromanini)
 Para dúvidas, sugestões ou colaborações, entre em contato via GitHub ou abra uma issue!
